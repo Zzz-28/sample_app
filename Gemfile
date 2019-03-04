@@ -34,6 +34,8 @@ gem 'sdoc', '~> 0.4.0', group: :doc
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
 
+gem 'bcrypt-ruby', '3.1.2'
+
 group :test do
   gem 'selenium-webdriver'
   gem 'capybara'
