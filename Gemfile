@@ -39,6 +39,7 @@ gem 'bcrypt-ruby', '3.1.2'
 group :test do
   gem 'selenium-webdriver'
   gem 'capybara'
+  gem 'factory_girl_rails'
 end
 
 group :development, :test do
